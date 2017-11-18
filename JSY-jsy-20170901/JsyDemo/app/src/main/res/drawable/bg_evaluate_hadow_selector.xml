@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--<item android:state_pressed="true">-->
+    <!--<layer-list>-->
+    <!--&lt;!&ndash; 相当于padding &ndash;&gt;-->
+    <!--<item android:left="@dimen/common_10dp" android:top="@dimen/common_10dp">-->
+    <!--<shape>-->
+    <!--<solid android:width="2dp" android:color="@color/white" />-->
+    <!--<corners android:radius="@dimen/common_5dp" android:topLeftRadius="@dimen/common_2dp" />-->
+    <!--<stroke android:width="0.2dp" android:color="@color/common_loan_personal" />-->
+    <!--<corners android:radius="@dimen/common_10dp" />-->
+    <!--</shape>-->
+    <!--</item>-->
+    <!--</layer-list>-->
+    <!--</item>-->
+
+    <item>
+        <layer-list>
+            <!-- SHADOW LAYER -->
+            <item android:bottom="0.5dp" android:left="0.5dp" android:right="0.5dp" android:top="0.5dp">
+                <shape>
+                    <solid android:color="@color/white" />
+                    <corners android:bottomLeftRadius="@dimen/common_2dp" android:bottomRightRadius="@dimen/common_2dp" android:radius="@dimen/common_15dp" android:topLeftRadius="@dimen/common_2dp" android:topRightRadius="@dimen/common_2dp" />
+                    <stroke android:width="@dimen/common_2dp" android:color="@color/common_loan_evaluate_text" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="horizontal"
+    android:padding="@dimen/common_10dp">
+
+    <ImageView
+        android:id="@+id/dialog_listview_item_checkBox"
+        android:layout_width="@dimen/common_25dp"
+        android:layout_height="@dimen/common_25dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="@dimen/common_20dp"
+        android:src="@mipmap/ic_selected"
+        tools:ignore="RtlHardcoded" />
+
+    <cn.jishiyu11.xjsjd.control.MyTextView
+        android:id="@+id/dialog_listview_item_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="@dimen/common_20dp"
+        android:layout_marginLeft="@dimen/common_80dp"
+        android:text="@string/name_loan_credit_no_taobao"
+        android:textColor="@color/common_loan_view_text"
+        android:textSize="@dimen/common_20dp"
+        tools:ignore="RtlHardcoded" />
+
+
+</RelativeLayout>

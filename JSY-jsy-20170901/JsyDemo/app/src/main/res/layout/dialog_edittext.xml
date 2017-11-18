@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_fillet_shadow_wathet_selector"
+    android:orientation="vertical">
+
+    <cn.jishiyu11.xjsjd.control.MyTextView
+        android:id="@+id/dialog_editText_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="@dimen/common_10dp"
+        android:text="@string/dialog_bottom_determine"
+        android:textColor="@color/black"
+        android:textSize="@dimen/common_14dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_1dp"
+        android:background="@color/common_gray" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <cn.jishiyu11.xjsjd.control.MyEdittextView
+            android:id="@+id/dialog_editText_context"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="@dimen/common_10dp"
+            android:layout_marginRight="@dimen/common_10dp"
+            android:layout_marginTop="@dimen/common_10dp"
+            android:background="@drawable/bg_speedloan_blue_selector"
+            android:gravity="center|left"
+            android:hint="@string/name_loan_details_basic_content"
+            android:paddingBottom="@dimen/common_10dp"
+            android:paddingLeft="@dimen/common_120dp"
+            android:paddingRight="@dimen/common_10dp"
+            android:paddingTop="@dimen/common_10dp"
+            android:textColor="@color/common_loan_personal"
+            android:textColorHint="@color/common_gray"
+            android:textSize="@dimen/common_14dp" />
+
+        <cn.jishiyu11.xjsjd.control.MyTextView
+            android:id="@+id/dialog_editText_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="@dimen/common_15dp"
+            android:text="@string/dialog_bottom_determine"
+            android:textColor="@color/black"
+            android:textSize="@dimen/common_14dp" />
+
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_1dp"
+        android:layout_marginTop="@dimen/common_10dp"
+        android:background="@color/common_gray" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <cn.jishiyu11.xjsjd.control.MyButton
+            android:id="@+id/dialog_editText_button_cancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@color/transparent"
+            android:padding="@dimen/common_10dp"
+            android:text="@string/name_loan_cancel"
+            android:textColor="@color/black"
+            android:textSize="@dimen/common_14dp" />
+
+        <View
+            android:layout_width="@dimen/common_1dp"
+            android:layout_height="match_parent"
+            android:background="@color/common_gray" />
+
+        <cn.jishiyu11.xjsjd.control.MyButton
+            android:id="@+id/dialog_editText_button_determine"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@color/transparent"
+            android:padding="@dimen/common_10dp"
+            android:text="@string/dialog_bottom_determine"
+            android:textColor="@color/black"
+            android:textSize="@dimen/common_14dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="@dimen/common_10dp">
+
+        <cn.jishiyu11.xjsjd.control.MyTextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/dialog_bottom_urban_area"
+            android:textColor="@color/black"
+            android:textSize="@dimen/common_20dp" />
+
+        <cn.jishiyu11.xjsjd.control.MyButton
+            android:id="@+id/dialog_bottom_urban_area_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/common_press"
+            android:padding="@dimen/common_10dp"
+            android:text="@string/dialog_bottom_determine"
+            android:textColor="@color/common_loan_personal"
+            android:textSize="@dimen/common_14dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_300dp"
+        android:orientation="horizontal"
+        android:padding="@dimen/common_10dp">
+
+        <cn.jishiyu11.xjsjd.EntityClass.model.WheelView
+            android:id="@+id/dialog_bottom_urban_area_province"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <cn.jishiyu11.xjsjd.EntityClass.model.WheelView
+            android:id="@+id/dialog_bottom_urban_area_city"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <cn.jishiyu11.xjsjd.EntityClass.model.WheelView
+            android:id="@+id/dialog_bottom_urban_area_district"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+
+</LinearLayout>

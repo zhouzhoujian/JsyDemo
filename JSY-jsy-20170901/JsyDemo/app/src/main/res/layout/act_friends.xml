@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_light_grey"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/tab_activity_fra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/friends_image"
+            android:layout_width="match_parent"
+            android:scaleType="fitXY"
+            android:layout_height="match_parent" />
+
+        <cn.jishiyu11.xjsjd.control.MyButton
+            android:id="@+id/friends_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="@dimen/common_30dp"
+            android:background="@mipmap/ic_set_up_confirm_button"
+            android:padding="@dimen/common_10dp"
+            android:text="@string/name_loan_personal_inviting_friends"
+            android:textColor="@color/white"
+            android:textSize="@dimen/common_14dp" />
+    </RelativeLayout>
+</LinearLayout>

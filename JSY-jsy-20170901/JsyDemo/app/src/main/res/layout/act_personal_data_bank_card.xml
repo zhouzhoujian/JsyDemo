@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/common_light_grey"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/tab_activity_fra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/personal3"
+                android:layout_width="@dimen/common_25dp"
+                android:layout_height="@dimen/common_25dp"
+                android:layout_centerInParent="true"
+                android:src="@mipmap/ic_loan_back_shadow" />
+
+            <cn.jishiyu11.xjsjd.control.MyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="1"
+                android:textColor="@color/white"
+                android:textSize="@dimen/common_14dp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="@dimen/common_50dp"
+            android:layout_height="@dimen/common_2dp"
+            android:background="@color/common_wathet" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="@dimen/common_25dp"
+                android:layout_height="@dimen/common_25dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:src="@mipmap/ic_loan_back_shadow" />
+
+            <cn.jishiyu11.xjsjd.control.MyTextView
+                android:id="@+id/loan_basic_number_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="2"
+                android:textColor="@color/white"
+                android:textSize="@dimen/common_14dp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="@dimen/common_50dp"
+            android:layout_height="@dimen/common_2dp"
+            android:background="@color/common_wathet" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/personal3_tag"
+                android:layout_width="@dimen/common_25dp"
+                android:layout_height="@dimen/common_25dp"
+                android:layout_centerInParent="true"
+                android:src="@mipmap/ic_loan_back_shadow" />
+
+            <cn.jishiyu11.xjsjd.control.MyTextView
+                android:id="@+id/loan_basic_application_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="3"
+                android:textColor="@color/white"
+                android:textSize="@dimen/common_14dp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="@dimen/common_50dp"
+            android:layout_height="@dimen/common_2dp"
+            android:background="@color/common_wathet" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="@dimen/common_25dp"
+                android:layout_height="@dimen/common_25dp"
+                android:layout_centerInParent="true"
+                android:src="@mipmap/ic_loan_basic_shadow" />
+
+            <cn.jishiyu11.xjsjd.control.MyTextView
+                android:id="@+id/loan_loan_application_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="4"
+                android:textColor="@color/white"
+                android:textSize="@dimen/common_14dp" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="@dimen/common_30dp"
+        android:layout_marginRight="@dimen/common_30dp"
+        android:gravity="center"
+        >
+        <TextView
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="基本信息"
+            android:textSize="@dimen/common_10dp"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:text="个人资料"
+            android:textSize="@dimen/common_10dp"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="授权"
+            android:gravity="center"
+            android:textSize="@dimen/common_10dp"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:textColor="@color/personal_guid_textcolor"
+            android:text="绑定银行卡"
+            android:textSize="@dimen/common_10dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/personal_bank_savings_linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:visibility="gone"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:padding="@dimen/common_10dp">
+
+        <cn.jishiyu11.xjsjd.control.MyTextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/common_10dp"
+            android:layout_weight="1"
+            android:text="@string/name_loan_bank_savings_card"
+            android:textColor="@color/common_loan_personal"
+            android:textSize="@dimen/common_16dp" />
+
+        <cn.jishiyu11.xjsjd.control.MyTextView
+            android:id="@+id/personal_bank_savings_card"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/common_10dp"
+            android:text="@string/name_loan_bank_no_verification"
+            android:textColor="@color/common_loan_personal"
+            android:textSize="@dimen/common_16dp" />
+
+        <ImageView
+            android:layout_width="@dimen/common_20dp"
+            android:layout_height="@dimen/common_20dp"
+            android:paddingLeft="@dimen/common_10dp"
+            android:src="@drawable/bg_personal_right_selector" />
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_6dp"
+        android:background="@color/common_loan_record_line"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/personal4_bank_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="@dimen/common_8dp"
+            android:orientation="horizontal"
+            >
+
+            <cn.jishiyu11.xjsjd.control.MyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/common_10dp"
+                android:text="开户银行"
+                android:textColor="@color/common_loan_personal"
+                android:textSize="@dimen/common_16dp" />
+
+            <cn.jishiyu11.xjsjd.control.MyTextView
+                android:id="@+id/personal4_bank_name_tv"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:layout_height="wrap_content"
+                android:text="选择开户行"
+                android:textColor="@color/common_loan_personal"
+                android:textSize="@dimen/common_16dp" />
+
+            <ImageView
+                android:layout_width="@dimen/common_20dp"
+                android:layout_height="@dimen/common_20dp"
+                android:paddingLeft="@dimen/common_10dp"
+                android:src="@drawable/bg_personal_right_selector" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/common_1dp"
+            android:layout_marginLeft="@dimen/common_20dp"
+            android:layout_marginRight="@dimen/common_20dp"
+            android:background="@color/common_gray" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:padding="@dimen/common_8dp">
+
+        <cn.jishiyu11.xjsjd.control.MyTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/common_10dp"
+            android:text="银行卡卡号"
+            android:textColor="@color/common_loan_personal"
+            android:textSize="@dimen/common_16dp"
+            tools:ignore="RtlHardcoded"
+            />
+        <EditText
+            android:id="@+id/personal4_bank_cardnum"
+            android:hint="请输入银行卡号"
+            android:layout_marginRight="@dimen/common_10dp"
+            android:textSize="@dimen/common_16dp"
+            android:layout_weight="3"
+            android:layout_width="0dp"
+            android:maxLength="20"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:inputType="number"
+            android:background="@null"
+            />
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_1dp"
+        android:layout_marginLeft="@dimen/common_20dp"
+        android:layout_marginRight="@dimen/common_20dp"
+        android:background="@color/common_gray" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:padding="@dimen/common_8dp">
+
+        <cn.jishiyu11.xjsjd.control.MyTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/common_10dp"
+            android:text="预留手机号"
+            android:textColor="@color/common_loan_personal"
+            android:textSize="@dimen/common_16dp"
+            tools:ignore="RtlHardcoded"
+            />
+        <EditText
+            android:id="@+id/personal4_bank_user_phonenum"
+            android:layout_weight="3"
+            android:layout_width="0dp"
+            android:layout_marginRight="@dimen/common_10dp"
+            android:textSize="@dimen/common_16dp"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:hint="请输入银行预留手机号"
+            android:background="@null"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+        <Button
+            android:id="@+id/personal4_data_next"
+            android:layout_marginRight="@dimen/common_40dp"
+            android:layout_marginLeft="@dimen/common_40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="立即绑定"
+            android:textColor="@color/white"
+            android:background="@drawable/corner_view"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

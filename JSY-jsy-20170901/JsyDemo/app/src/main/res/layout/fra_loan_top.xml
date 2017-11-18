@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/common_light_grey"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/old_viewpager"
+        layout="@layout/view_viewpage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_6dp"
+        android:background="@color/common_light_grey"
+        />
+
+    <GridView
+        android:id="@+id/loan_frame_gridView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_170dp"
+        android:background="@color/white"
+        android:fastScrollEnabled="false"
+        android:gravity="center"
+        android:listSelector="@color/transparent"
+        android:numColumns="4"
+        android:scrollbars="none" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_6dp"
+        android:background="@color/common_light_grey"
+        />
+    <cn.jishiyu11.xjsjd.view.MarqueeView
+        android:id="@+id/marqueeView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        app:mvAnimDuration="500"
+        app:mvInterval="3000"
+        app:mvTextSize="@dimen/common_14dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_6dp"
+        android:background="@color/common_light_grey"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/common_5dp"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="@dimen/common_5dp">
+
+            <ImageView
+                android:layout_width="@dimen/common_20dp"
+                android:layout_height="@dimen/common_2dp"
+                android:layout_gravity="center"
+                android:layout_marginRight="@dimen/common_10dp"
+                android:src="@color/common_deep_blue" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/common_5dp"
+                android:src="@mipmap/ic_loan_hot_sky_loan" />
+
+            <cn.jishiyu11.xjsjd.control.MyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/name_loan_hot_sky_loan"
+                android:textColor="@color/common_deep_blue"
+                android:textSize="@dimen/common_14dp" />
+
+            <ImageView
+                android:layout_width="@dimen/common_20dp"
+                android:layout_height="@dimen/common_2dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/common_10dp"
+                android:src="@color/common_deep_blue" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/loan_tab_linear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/common_10dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/common_10dp"
+            android:paddingRight="@dimen/common_10dp"
+            android:paddingTop="@dimen/common_10dp"
+            tools:ignore="RtlHardcoded">
+
+            <cn.jishiyu11.xjsjd.control.MyTextView
+                android:id="@+id/Loan_hot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/name_loan_batch"
+                android:textColor="@color/common_deep_blue"
+                android:textSize="@dimen/common_10dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/common_5dp"
+                android:src="@mipmap/ic_loan_batch" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

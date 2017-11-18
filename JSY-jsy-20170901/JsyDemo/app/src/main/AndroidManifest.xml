@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?><!--suppress ALL -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="cn.jishiyu11.xjsjd">
+
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true" />
+
+
+    <application
+        android:name=".base.JSYApplication"
+        android:allowBackup="true"
+        android:icon="${app_icon}"
+        android:label="${app_name}"
+        android:roundIcon="${app_icon}"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="name,icon,allowBackup,label"
+        android:largeHeap="true"
+        >
+
+        <activity android:name=".activity.CommissioningActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="com_jsy"
+                    android:scheme="jsy" />
+                <data
+                    android:host="com_jsy"
+                    android:scheme="http" />
+                <data
+                    android:host="com_jsy"
+                    android:scheme="https" />
+                <data
+                    android:host="com_jsy"
+                    android:scheme="intent" />
+                <data
+                    android:host="com_jsy"
+                    android:scheme="Intent" />
+
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".activity.MainActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+
+            />
+        <activity
+            android:name=".activity.helpFeedbackFriendsMyPackage.IntegralShop"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.IdentityCheck.PersonalData3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.IdentityCheck.PersonalDataCertificatesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.Insurice_tripActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.IdentityCheck.PersonalData4"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.SetUp.SetUPActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.SetUp.SetUpAboutActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.helpFeedbackFriendsMyPackage.HelpCenterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.IdentityCheck.PersonalData2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.helpFeedbackFriendsMyPackage.FeedbackActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.LogoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.SetUp.SetUpPasswordActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".webview.LoanWebViewActivity"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            />
+
+        <activity
+            android:name=".activity.helpFeedbackFriendsMyPackage.OperatorActivity"
+            android:screenOrientation="portrait" />
+
+        <service android:name=".service.UpdataService" />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="${applicationId}.fileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <!-- 友盟-->
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="590ac4f507fe650138000091" />
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="${UMENG_CHANNEL_VALUE}" />
+        <meta-data
+            android:name="channel"
+            android:value="${UMENG_CHANNEL_VALUE}" />
+
+        <activity
+            android:name="com.android.moblie.zmxy.antgroup.creditsdk.app.SDKActivity"
+            android:label="芝麻信用"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.tencent.tauth.AuthActivity"
+            android:launchMode="singleTask"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="tencent1106281166" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.tencent.connect.common.AssistActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name=".wxapi.WXEntryActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"></action>
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!--身份证识别-->
+        <activity android:name=".activity.FaceIDCard.ResultActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".activity.FaceIDCard.ResultNewActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".activity.FaceIDCard.LoadingActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.megvii.idcardlib.IDCardScanActivity"
+            android:screenOrientation="portrait"/>
+        <!--活体识别-->
+        <activity android:name=".activity.FaceLive.LoadingActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".activity.FaceLive.ResultActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.megvii.livenesslib.LivenessActivity"
+            android:screenOrientation="portrait"/>
+
+    </application>
+    <uses-sdk android:minSdkVersion="8"></uses-sdk>
+
+    <uses-permission
+        android:name="android.permission.BIND_JOB_SERVICE"
+        tools:ignore="ManifestOrder" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" /><!-- 获取电池电量统计信息 -->
+    <uses-permission android:name="android.permission.BATTERY_STATS" />
+
+    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT" /><!-- 允许程序在手机屏幕关闭后后台进程仍然运行 -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" /><!-- 挂载、反挂载外部文件系统 -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" /><!-- 允许读写系统设置项 -->
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" /><!-- 显示系统窗口 -->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" /><!-- 可选用户权限 --><!-- 通过WiFi或移动基站的方式获取用户错略的经纬度信息，定位精度大概误差在30~1500米 -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /><!-- 改变WiFi状态 -->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" /><!-- 通过GPS芯片接收卫星的定位信息，定位精度达10米以内 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /><!-- 允许程序访问额外的定位提供者指令 -->
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" /><!-- 改变网络状态如是否能联网 -->
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" /><!-- 允许程序获取当前或最近运行的应用 -->
+    <uses-permission android:name="android.permission.GET_TASKS" /><!-- 震动 -->
+    <uses-permission android:name="android.permission.VIBRATE" /><!-- 读取外部SDCard -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /><!-- 往SDCard写入数据权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /><!-- 网络请求 -->
+    <uses-permission android:name="android.permission.INTERNET" /><!-- 允许应用访问Wi-Fi网络的信息 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /><!-- 允许应用访问网络上的信息 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /><!-- 允许读取电话的状态 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" /><!-- 允许相机权限 -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+    <uses-permission android:name="android.permission.BROADCAST_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+</manifest>

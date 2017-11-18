@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_light_grey"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|left"
+        android:orientation="horizontal"
+        android:padding="@dimen/common_10dp">
+
+        <ImageView
+            android:id="@+id/loan_praise"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_loan_praise" />
+
+        <cn.jishiyu11.xjsjd.control.MyTextView
+            android:id="@+id/loan_recommend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/common_10dp"
+            android:text="@string/name_loan_praise_recommend"
+            android:textColor="@color/common_brown_text"
+            android:textSize="@dimen/common_14dp"
+            tools:ignore="RtlHardcoded" />
+    </LinearLayout>
+
+    <cn.jishiyu11.xjsjd.view.MyGridView
+        android:id="@+id/loan_gridView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/common_10dp"
+        android:layout_marginRight="@dimen/common_10dp"
+        android:background="@color/white"
+        android:columnWidth="@dimen/common_100dp"
+        android:fastScrollEnabled="false"
+        android:gravity="center"
+        android:listSelector="@color/transparent"
+        android:numColumns="2"
+        android:scrollbars="none"
+        android:stretchMode="columnWidth" />
+
+</LinearLayout>

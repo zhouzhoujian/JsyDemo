@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/common_10dp"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:id="@+id/pop_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <cn.jishiyu11.xjsjd.control.MyButton
+                android:id="@+id/btn_pick_photo1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_photo_bottom_shape"
+                android:padding="@dimen/common_6dp"
+                android:text="@string/name_loan_you"
+                android:textColor="@color/common_pop_blue"
+                android:textSize="16dp" />
+
+
+            <cn.jishiyu11.xjsjd.control.MyButton
+                android:id="@+id/btn_pick_photo2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_3dp"
+                android:background="@drawable/button_photo_bottom_shape"
+                android:padding="@dimen/common_6dp"
+                android:text="@string/name_loan_wu"
+                android:textColor="@color/common_pop_blue"
+                android:textSize="16dp" />
+
+            <cn.jishiyu11.xjsjd.control.MyButton
+                android:id="@+id/btn_pick_photo3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_3dp"
+                android:background="@drawable/button_photo_bottom_shape"
+                android:padding="@dimen/common_6dp"
+                android:text="@string/name_loan_wu"
+                android:textColor="@color/common_pop_blue"
+                android:textSize="16dp"
+                android:visibility="gone" />
+
+            <cn.jishiyu11.xjsjd.control.MyButton
+                android:id="@+id/btn_pick_photo4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_3dp"
+                android:background="@drawable/button_photo_bottom_shape"
+                android:padding="@dimen/common_6dp"
+                android:text="@string/name_loan_wu"
+                android:textColor="@color/common_pop_blue"
+                android:textSize="16dp"
+                android:visibility="gone" />
+
+            <cn.jishiyu11.xjsjd.control.MyButton
+                android:id="@+id/btn_pick_photo5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_5dp"
+                android:background="@drawable/button_photo_bottom_shape"
+                android:padding="@dimen/common_6dp"
+                android:text="@string/name_loan_wu"
+                android:textColor="@color/common_pop_blue"
+                android:textSize="16dp"
+                android:visibility="gone" />
+            <cn.jishiyu11.xjsjd.control.MyButton
+                android:id="@+id/btn_pick_photo6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_5dp"
+                android:background="@drawable/button_photo_bottom_shape"
+                android:padding="@dimen/common_6dp"
+                android:text="@string/name_loan_wu"
+                android:textColor="@color/common_pop_blue"
+                android:textSize="16dp"
+                android:visibility="gone" />
+            <cn.jishiyu11.xjsjd.control.MyButton
+                android:id="@+id/btn_pick_photo7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_5dp"
+                android:background="@drawable/button_photo_bottom_shape"
+                android:padding="@dimen/common_6dp"
+                android:text="@string/name_loan_wu"
+                android:textColor="@color/common_pop_blue"
+                android:textSize="16dp"
+                android:visibility="gone" />
+            <cn.jishiyu11.xjsjd.control.MyButton
+                android:id="@+id/btn_pick_photo8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_5dp"
+                android:background="@drawable/button_photo_bottom_shape"
+                android:padding="@dimen/common_6dp"
+                android:text="@string/name_loan_wu"
+                android:textColor="@color/common_pop_blue"
+                android:textSize="16dp"
+                android:visibility="gone" />
+            <cn.jishiyu11.xjsjd.control.MyButton
+                android:id="@+id/btn_pick_photo9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_5dp"
+                android:background="@drawable/button_photo_bottom_shape"
+                android:padding="@dimen/common_6dp"
+                android:text="@string/name_loan_wu"
+                android:textColor="@color/common_pop_blue"
+                android:textSize="16dp"
+                android:visibility="gone" />
+            <cn.jishiyu11.xjsjd.control.MyButton
+                android:id="@+id/btn_pick_photo10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_5dp"
+                android:background="@drawable/button_photo_bottom_shape"
+                android:padding="@dimen/common_6dp"
+                android:text="@string/name_loan_wu"
+                android:textColor="@color/common_pop_blue"
+                android:textSize="16dp"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="vertical">
+
+            <cn.jishiyu11.xjsjd.control.MyButton
+                android:id="@+id/btn_cancel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_photo_bottom_shape"
+                android:padding="@dimen/common_10dp"
+                android:text="@string/name_loan_cancel"
+                android:textColor="@color/common_pop_blue"
+                android:textSize="16dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

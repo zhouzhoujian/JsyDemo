@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_light_grey"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/tab_activity_fra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/common_15dp"
+        android:layout_weight="1"
+        android:background="@drawable/bg_fillet_shadow_selector">
+
+        <cn.jishiyu11.xjsjd.control.MyEdittextView
+            android:id="@+id/information_corporate_editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:hint="@string/name_loan_feedback_editText"
+            android:maxLength="500"
+            android:padding="@dimen/common_10dp"
+            android:textColor="@color/common_brown_text"
+            android:textColorHint="@color/common_gray"
+            android:textSize="@dimen/common_14dp" />
+
+        <cn.jishiyu11.xjsjd.control.MyTextView
+            android:id="@+id/feedback_path_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="@dimen/common_20dp"
+            android:layout_marginRight="@dimen/common_20dp"
+            android:text="@string/name_loan_feedback_path"
+            android:textColor="@color/common_gray"
+            android:textSize="@dimen/common_14dp"
+            tools:ignore="RelativeOverlap,RtlHardcoded" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="@dimen/common_10dp"
+            android:gravity="center|left"
+            android:orientation="horizontal"
+            android:padding="@dimen/common_10dp">
+
+            <ImageView
+                android:id="@+id/feedback_image"
+                android:layout_width="@dimen/common_50dp"
+                android:layout_height="@dimen/common_50dp"
+                android:src="@mipmap/ic_feedback_camera" />
+
+            <cn.jishiyu11.xjsjd.control.MyTextView
+                android:id="@+id/feedback_path"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/common_10dp"
+                android:text="@string/name_loan_feedback_path"
+                android:textColor="@color/common_gray"
+                android:textSize="@dimen/common_14dp" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <cn.jishiyu11.xjsjd.control.MyEdittextView
+            android:id="@+id/feedback_path_editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/common_20dp"
+            android:layout_weight="0.1"
+            android:background="@drawable/bg_fillet_shadow_selector"
+            android:hint="@string/name_loan_feedback_edit"
+            android:padding="@dimen/common_10dp"
+            android:textColor="@color/common_brown_text"
+            android:textColorHint="@color/common_gray"
+            android:textSize="@dimen/common_14dp"
+            tools:ignore="NestedWeights" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <cn.jishiyu11.xjsjd.control.MyButton
+                android:id="@+id/feedback_path_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_30dp"
+                android:background="@mipmap/ic_set_up_confirm_button"
+                android:padding="@dimen/common_10dp"
+                android:text="@string/name_loan_basic_submit"
+                android:textColor="@color/white"
+                android:textSize="@dimen/common_14dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

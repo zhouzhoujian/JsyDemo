@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/loan_fra_adapter_item_imag"
+        android:layout_width="@dimen/common_40dp"
+        android:layout_height="@dimen/common_40dp"
+        android:layout_marginTop="@dimen/common_10dp"
+        android:src="@mipmap/ic_launcher" />
+
+    <cn.jishiyu11.xjsjd.control.MyTextView
+        android:id="@+id/loan_fra_adapter_item_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/common_10dp"
+        android:text="@string/app_name"
+        android:textColor="@color/common_loan_fra_color_text"
+        android:textSize="@dimen/common_14dp" />
+
+
+</LinearLayout>

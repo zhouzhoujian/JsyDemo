@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/common_30dp"
+        android:layout_marginLeft="@dimen/common_20dp"
+        android:layout_marginRight="@dimen/common_20dp"
+        android:layout_marginTop="@dimen/common_30dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/corner_view2"
+            android:orientation="vertical">
+
+            <ListView
+                android:id="@+id/personaldata4_dialog_listview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+            </ListView>
+
+        </LinearLayout>
+
+        <Button
+            android:layout_marginTop="@dimen/common_10dp"
+            android:id="@+id/personaldata4_dialog_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/corner_view"
+            android:text="其他"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

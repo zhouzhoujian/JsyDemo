@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    tools:ignore="KeyboardInaccessibleWidget">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_fillet_shadow_selector"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="6dp"
+            android:background="@color/common_light_grey"
+            />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="6dp"
+                android:background="@color/home_listview_line"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <LinearLayout
+                    android:layout_margin="@dimen/common_12dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/common_2dp">
+
+                    <ImageView
+                        android:id="@+id/home_loan_product_image"
+                        android:layout_width="@dimen/common_70dp"
+                        android:layout_height="@dimen/common_70dp"
+                        android:padding="@dimen/common_10dp"
+                        android:src="@mipmap/ic_launcher" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:padding="@dimen/common_10dp"
+                        tools:ignore="RtlHardcoded">
+
+                        <cn.jishiyu11.xjsjd.control.MyTextView
+                            android:id="@+id/home_loan_product_title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ellipsize="end"
+                            android:singleLine="true"
+                            android:text="@string/name_loan_credit_no_taobao"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/common_14dp" />
+
+                        <cn.jishiyu11.xjsjd.control.MyTextView
+                            android:id="@+id/home_loan_product_quota"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/name_loan"
+                            android:textColor="@color/common_brown_text"
+                            android:textSize="@dimen/common_12dp" />
+
+                        <cn.jishiyu11.xjsjd.control.MyTextView
+                            android:id="@+id/home_loan_product_number"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/common_5dp"
+                            android:text="@string/name_loan"
+                            android:textColor="@color/common_brown_text"
+                            android:textSize="@dimen/common_12dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="1.5"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <cn.jishiyu11.xjsjd.control.MyTextView
+                            android:id="@+id/home_loan_product_interest_rate"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left|bottom"
+                            android:layout_marginBottom="@dimen/common_5dp"
+                            android:layout_weight="1"
+                            android:text="@string/name_loan"
+                            android:textColor="@color/common_brown_text"
+                            android:textSize="@dimen/common_12dp"
+                            tools:ignore="NestedWeights,RtlHardcoded" />
+
+                        <ImageView
+                            android:layout_width="@dimen/common_20dp"
+                            android:layout_height="@dimen/common_20dp"
+                            android:gravity="right|center"
+                            android:src="@drawable/bg_personal_right_selector"
+                            tools:ignore="RtlHardcoded" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="@dimen/common_70dp">
+
+                <LinearLayout
+                    android:id="@+id/home_loan_list_item_tag_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/common_32dp"
+                    android:layout_marginRight="@dimen/common_8dp"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:id="@+id/home_loan_list_item_tag_image_2"
+                        android:layout_width="@dimen/common_30dp"
+                        android:layout_height="@dimen/common_32dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/home_loan_list_item_tag_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/common_32dp"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    >
+
+                    <ImageView
+                        android:id="@+id/home_loan_list_item_tag_image_1"
+                        android:layout_width="@dimen/common_30dp"
+                        android:layout_height="@dimen/common_32dp" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#3F51B5</color>
+    <color name="primaryDark">#303F9F</color>
+    <color name="accent">#FF4081</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="fragment2_dialog_textcolor">#ff2217</color>
+    <color name="home_listview_line">#f3e725</color>
+    <color name="common_navy_blue">#43a7fd</color>
+    <color name="app_title_back_color">#81cffc</color>
+    <color name="personal_guid_textcolor">#4ca4ef</color>
+    <color name="common_transparent">#ffffff00</color>
+    <color name="common_sky_blue">#40b9b1</color>
+    <color name="common_gray">#a6a6a6</color>
+    <color name="common_green">#5fab6c</color>
+    <color name="common_violet">#463da8</color>
+    <color name="common_light_grey">#f0f0f0</color>
+    <color name="common_deep_blue">#327ac9</color>
+    <color name="common_brown_text">#655f5f</color>
+    <color name="common_loan_view_text">#2e2e2e</color>
+    <color name="common_loan_personal">#787878</color>
+    <color name="common_loan_personal_line">#e7e7e7</color>
+    <color name="common_loan_personal_data_other">#6a8def</color>
+    <color name="common_press">#EBE9E9</color>
+    <color name="common_reminder">#3f4257</color>
+    <color name="common_pop_blue">#177FFE</color>
+    <color name="common_reminder_bg">#eaeaea</color>
+    <color name="common_reminder_face">#004eb7</color>
+    <color name="common_details_point">#1786e2</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="common_blue">#007CCB</color>
+    <color name="common_blue_details">#176FDB</color>
+    <color name="common_basic_authentication_text">#303030</color>
+    <color name="common_basic_authentication_chocolate">#C06620</color>
+    <color name="common_basic_red">#EA3B53</color>
+    <color name="common_wathet">#B9D0F6</color>
+    <color name="common_pink">#EF3C50</color>
+    <color name="common_Blue">#E6F2FF</color>
+    <color name="common_grey_disabled">#aabbc4</color>
+    <color name="common_grey_color">#e1e1e1</color>
+    <color name="common_operator_color">#0B0B0B</color>
+    <color name="common_operator_text_color">#4C4C4C</color>
+    <color name="common_operator_clause_color">#2F5493</color>
+    <color name="common_operator_edit_color">#EDEDED</color>
+    <color name="common_loan_fra_color">#343434</color>
+    <color name="common_loan_fra_color_line">#D7D7D7</color>
+    <color name="common_loan_fra_color_text">#727272</color>
+    <color name="common_loan_evaluate_text">#78B2EE</color>
+    <color name="common_loan_record_text">#626262</color>
+    <color name="common_loan_record_line">#D5D5D5</color>
+
+
+</resources>

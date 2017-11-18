@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 按钮效果 -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!-- 选中未up时 -->
+<item android:state_pressed="true" ><shape>
+    <!--
+        颜色渐变
+        startColor:开始颜色
+        endColor:结束颜色
+        angle:渐变方向
+    -->
+    <gradient android:angle="180" android:endColor="@color/common_press" android:startColor="@color/common_press" />
+    <!-- radius:半径 -->
+    <corners android:bottomLeftRadius="10dp" android:bottomRightRadius="10dp" />
+    <!-- 按钮文字和边缘距离(内边距) -->
+    <padding android:bottom="5dp" android:left="5dp" android:right="5dp" android:top="5dp" />
+</shape></item>
+
+<!-- 无焦点 -->
+<item>
+    <shape>
+        <gradient android:angle="180" android:endColor="@color/white" android:startColor="@color/white" />
+        <corners android:bottomLeftRadius="10dp" android:bottomRightRadius="10dp" />
+        <padding android:bottom="5dp" android:left="5dp" android:right="5dp" android:top="5dp" />
+    </shape>
+</item>
+
+</selector>

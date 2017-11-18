@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_light_grey"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+        <include
+            layout="@layout/tab_activity_fra"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/common_10dp"
+                android:paddingLeft="@dimen/common_10dp"
+                android:paddingTop="@dimen/common_10dp">
+
+                <ImageView
+                    android:id="@+id/loan_details_image"
+                    android:layout_width="@dimen/common_80dp"
+                    android:layout_height="@dimen/common_80dp"
+                    android:src="@mipmap/ic_launcher" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <cn.jishiyu11.xjsjd.control.MyTextView
+                        android:id="@+id/loan_details_text_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/common_10dp"
+                        android:layout_marginRight="@dimen/common_10dp"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:textColor="@color/common_brown_text"
+                        android:textSize="@dimen/common_16dp" />
+
+                    <cn.jishiyu11.xjsjd.control.MyGridView
+                        android:id="@+id/loan_details_gridView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/common_10dp"
+                        android:columnWidth="@dimen/common_80dp"
+                        android:gravity="center_vertical"
+                        android:horizontalSpacing="@dimen/common_6dp"
+                        android:numColumns="3"
+                        android:padding="@dimen/common_6dp"
+                        android:scrollbars="none"
+                        android:stretchMode="columnWidth"
+                        android:verticalSpacing="@dimen/common_10dp" />
+
+                    <cn.jishiyu11.xjsjd.control.MyTextView
+                        android:id="@+id/loan_details_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/common_10dp"
+                        android:textColor="@color/common_brown_text"
+                        android:textSize="@dimen/common_14dp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/common_10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@mipmap/ic_loan_details_tab"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingBottom="@dimen/common_10dp"
+                    android:paddingTop="@dimen/common_10dp"
+                    tools:ignore="DisableBaselineAlignment">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center">
+
+
+                            <cn.jishiyu11.xjsjd.control.MyEdittextView
+                                android:id="@+id/loan_details_editText_range"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/common_30dp"
+                                android:layout_marginRight="@dimen/common_30dp"
+                                android:background="@drawable/bg_shape_corner"
+                                android:inputType="phone|number"
+                                android:padding="@dimen/common_5dp"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/common_14dp"
+                                tools:ignore="RtlHardcoded" />
+
+                            <cn.jishiyu11.xjsjd.control.MyTextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerInParent="true"
+                                android:layout_marginRight="@dimen/common_35dp"
+                                android:text="@string/name_loan_details_yuan"
+                                android:textColor="@color/common_brown_text"
+                                android:textSize="@dimen/common_14dp"
+                                tools:ignore="RelativeOverlap,RtlHardcoded" />
+                        </RelativeLayout>
+
+                        <cn.jishiyu11.xjsjd.control.MyTextView
+                            android:id="@+id/loan_details_textView_rang"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="@dimen/common_10dp"
+                            android:textColor="@color/common_brown_text"
+                            android:textSize="@dimen/common_12dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center">
+
+
+                            <cn.jishiyu11.xjsjd.control.MyEdittextView
+                                android:id="@+id/loan_details_editText_day"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/common_30dp"
+                                android:layout_marginRight="@dimen/common_30dp"
+                                android:background="@drawable/bg_shape_corner"
+                                android:inputType="number|phone"
+                                android:padding="@dimen/common_5dp"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/common_14dp" />
+
+                            <cn.jishiyu11.xjsjd.control.MyTextView
+                                android:id="@+id/details_editText_day_text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerInParent="true"
+                                android:layout_marginRight="@dimen/common_35dp"
+                                android:text="@string/name_loan_details_yuan"
+                                android:textColor="@color/common_brown_text"
+                                android:textSize="@dimen/common_14dp"
+                                tools:ignore="RelativeOverlap,RtlHardcoded" />
+                        </RelativeLayout>
+
+                        <cn.jishiyu11.xjsjd.control.MyTextView
+                            android:id="@+id/loan_details_textView_day"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="@dimen/common_10dp"
+                            android:textColor="@color/common_brown_text"
+                            android:textSize="@dimen/common_12dp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_4dp"
+                android:background="@color/white"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <cn.jishiyu11.xjsjd.control.MyTextView
+                    android:id="@+id/details_information_line"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="@dimen/common_10dp"
+                    android:text="@string/name_loan_details_information"
+                    android:textColor="@color/common_loan_evaluate_text"
+                    android:textSize="@dimen/common_14dp" />
+
+                <View
+                    android:layout_width="0.5dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/common_gray" />
+
+                <cn.jishiyu11.xjsjd.control.MyTextView
+                    android:id="@+id/details_evaluate_line"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="@dimen/common_10dp"
+                    android:text="@string/name_loan_details_evaluate"
+                    android:textColor="@color/common_brown_text"
+                    android:textSize="@dimen/common_14dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <View
+                    android:id="@+id/view_infor1"
+                    android:layout_width="0dp"
+                    android:layout_height="0.5dp"
+                    android:layout_weight="1"
+                    android:background="@color/common_loan_evaluate_text" />
+
+                <View
+                    android:id="@+id/view_infor2"
+                    android:layout_width="0dp"
+                    android:layout_height="0.5dp"
+                    android:layout_weight="1"
+                    android:background="@color/common_gray" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/evaluate_line_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginBottom="@dimen/common_20dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:visibility="visible">
+
+                    <cn.jishiyu11.xjsjd.view.LoadListView
+                        android:id="@+id/list_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"></cn.jishiyu11.xjsjd.view.LoadListView>
+
+                </LinearLayout>
+
+                <cn.jishiyu11.xjsjd.control.MyButton
+                    android:id="@+id/evaluate_line_button2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="@dimen/common_50dp"
+                    android:background="@drawable/bg_evaluate_hadow_selector"
+                    android:paddingBottom="@dimen/common_6dp"
+                    android:paddingLeft="@dimen/common_20dp"
+                    android:paddingRight="@dimen/common_20dp"
+                    android:paddingTop="@dimen/common_6dp"
+                    android:text="@string/loan_evaluate_my"
+                    android:textColor="@color/common_loan_evaluate_text"
+                    android:textSize="@dimen/common_14dp" />
+            </LinearLayout>
+
+            <include
+                android:id="@+id/view_product_details_listview_layout"
+                layout="@layout/view_product_details_listview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/common_50dp"
+                android:orientation="vertical">
+
+                <include
+                    android:id="@+id/view_information_layout"
+                    layout="@layout/view_information"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="gone"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:background="@color/common_light_grey"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:id="@+id/loan_service_bt"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:layout_margin="@dimen/common_2dp"
+            >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:src="@mipmap/services"
+            android:padding="@dimen/common_2dp"
+            android:textColor="@color/white"
+            />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:textSize="@dimen/common_12dp"
+                android:text="@string/loan_service"
+                />
+        </LinearLayout>
+        <cn.jishiyu11.xjsjd.control.MyButton
+            android:id="@+id/loan_details_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/common_2dp"
+            android:layout_weight="4"
+            android:background="@color/common_navy_blue"
+            android:padding="@dimen/common_10dp"
+            android:text="@string/name_loan_details_supplement"
+            android:textColor="@color/white"
+            android:textSize="@dimen/common_14dp" />
+
+
+    </LinearLayout>
+</RelativeLayout>

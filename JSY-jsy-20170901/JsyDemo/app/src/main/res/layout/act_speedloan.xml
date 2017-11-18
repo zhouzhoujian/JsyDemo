@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/common_10dp"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center|left"
+        android:orientation="horizontal"
+        android:padding="@dimen/common_10dp">
+
+        <ImageView
+            android:id="@+id/speed_loan_image"
+            android:layout_width="@dimen/common_20dp"
+            android:layout_height="@dimen/common_20dp"
+            android:layout_marginLeft="@dimen/common_10dp"
+            android:src="@mipmap/ic_feedback_camera" />
+
+        <cn.jishiyu11.xjsjd.control.MyTextView
+            android:id="@+id/speed_loan_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/common_10dp"
+            android:text="@string/name_loan_credit_no_taobao"
+            android:textColor="@color/black"
+            android:textSize="@dimen/common_14dp" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/common_gray" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="@dimen/common_10dp">
+
+        <cn.jishiyu11.xjsjd.control.MyTextView
+            android:id="@+id/speed_loan_loan_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/common_10dp"
+            android:layout_marginRight="@dimen/common_10dp"
+            android:text="20000一下"
+            android:textColor="@color/common_basic_red"
+            android:textSize="@dimen/common_18dp" />
+
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:background="@color/common_gray" />
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1">
+
+            <cn.jishiyu11.xjsjd.control.MyTextView
+                android:id="@+id/speedloan_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="@dimen/common_10dp"
+                android:text="@string/name_loan_credit_no_taobao"
+                android:textColor="@color/black"
+                android:textSize="@dimen/common_14dp" />
+
+        </RelativeLayout>
+
+        <cn.jishiyu11.xjsjd.control.MyTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_speedloan_red_selector"
+            android:padding="@dimen/common_10dp"
+            android:text="@string/name_loan_speed_loan"
+            android:textColor="@color/common_basic_red"
+            android:textSize="@dimen/common_14dp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/common_gray" />
+</LinearLayout>

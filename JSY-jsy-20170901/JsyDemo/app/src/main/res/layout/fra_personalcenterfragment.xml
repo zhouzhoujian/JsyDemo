@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_light_grey"
+    android:orientation="vertical">
+
+
+    <include
+        android:visibility="gone"
+    layout="@layout/tab_activity_fra"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@mipmap/personal_center_title_back"
+
+        >
+        <TextView
+            android:id="@+id/personal_center_title"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/common_40dp"
+            android:textSize="@dimen/common_16dp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/common_20dp"
+            android:gravity="center_horizontal"
+            >
+            <LinearLayout
+                android:id="@+id/personal3_head_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                >
+
+            <ImageView
+                android:id="@+id/personal_camera"
+                android:layout_width="@dimen/common_50dp"
+                android:layout_height="@dimen/common_50dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:src="@mipmap/ic_personal_camera"
+                android:layout_marginBottom="@dimen/common_10dp"
+                tools:ignore="RtlHardcoded" />
+
+            <cn.jishiyu11.xjsjd.control.MyTextView
+                android:id="@+id/personal_logo"
+                android:layout_below="@+id/personal_camera"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/name_loan_personal_logn"
+                android:textColor="@color/white"
+                android:textSize="@dimen/common_16dp"
+                tools:ignore="RelativeOverlap,RtlHardcoded"
+                />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="@dimen/common_6dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+        <LinearLayout
+            android:id="@+id/personal_bt1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="@dimen/common_10dp"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_margin="@dimen/common_10dp"
+                android:layout_width="@dimen/common_40dp"
+                android:layout_height="@dimen/common_40dp"
+                android:src="@mipmap/personal_jifenshangcheng" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="积分商城"
+                android:textSize="16dp"
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/personal_bt2"
+            android:layout_marginLeft="@dimen/common_4dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="@dimen/common_10dp"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_margin="@dimen/common_10dp"
+                android:layout_width="@dimen/common_40dp"
+                android:layout_height="@dimen/common_40dp"
+                android:src="@mipmap/ic_personal_help_center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:text="帮助中心" />
+
+        </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <LinearLayout
+                android:id="@+id/personal_bt3"
+                android:layout_marginTop="@dimen/common_4dp"
+                android:padding="@dimen/common_10dp"
+                android:background="@color/white"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_margin="@dimen/common_10dp"
+                    android:layout_width="@dimen/common_40dp"
+                    android:layout_height="@dimen/common_40dp"
+                    android:src="@mipmap/ic_personal_feedback" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16dp"
+                    android:text="关于我们" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/personal_bt4"
+                android:background="@color/white"
+                android:layout_marginLeft="@dimen/common_4dp"
+                android:layout_marginTop="@dimen/common_4dp"
+                android:padding="@dimen/common_10dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_margin="@dimen/common_10dp"
+                    android:layout_width="@dimen/common_40dp"
+                    android:layout_height="@dimen/common_40dp"
+                    android:src="@mipmap/ic_personal_setup" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16dp"
+                    android:text="设置" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

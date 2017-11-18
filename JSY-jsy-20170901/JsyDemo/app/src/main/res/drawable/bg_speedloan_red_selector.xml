@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <layer-list>
+            <!-- SHADOW LAYER -->
+            <item android:left="0.5dp" android:top="0.5dp">
+                <shape>
+                    <solid android:color="@color/white" />
+                    <corners android:bottomLeftRadius="@dimen/common_2dp" android:bottomRightRadius="@dimen/common_2dp" android:topLeftRadius="@dimen/common_2dp" android:topRightRadius="@dimen/common_2dp" />
+                    <stroke android:width="@dimen/common_2dp" android:color="@color/common_basic_red" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>

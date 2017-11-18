@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/common_10dp"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <cn.jishiyu11.xjsjd.control.MyTextView
+            android:id="@+id/record_loan_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/common_10dp"
+            android:padding="@dimen/common_5dp"
+            android:text="浏览时间: 2017-08-31"
+            android:textColor="@color/common_loan_record_text"
+            android:textSize="@dimen/common_14dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/common_loan_record_line" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/common_10dp">
+
+            <ImageView
+                android:id="@+id/record_loan_img"
+                android:layout_width="@dimen/common_70dp"
+                android:layout_height="@dimen/common_60dp"
+                android:padding="@dimen/common_5dp"
+                android:src="@mipmap/ic_launcher" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:padding="@dimen/common_5dp">
+
+                <cn.jishiyu11.xjsjd.control.MyTextView
+                    android:id="@+id/record_loan_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/app_name"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/common_16dp" />
+
+                <cn.jishiyu11.xjsjd.control.MyTextView
+                    android:id="@+id/record_loan_money"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/app_name"
+                    android:textColor="@color/common_loan_record_text"
+                    android:textSize="@dimen/common_12dp" />
+
+                <cn.jishiyu11.xjsjd.control.MyTextView
+                    android:id="@+id/record_loan_day"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/app_name"
+                    android:textColor="@color/common_loan_record_text"
+                    android:textSize="@dimen/common_12dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="@dimen/common_5dp"
+                android:orientation="vertical">
+
+                <cn.jishiyu11.xjsjd.control.MyButton
+                    android:id="@+id/record_loan_button"
+                    android:layout_width="@dimen/common_70dp"
+                    android:layout_height="@dimen/common_25dp"
+                    android:layout_gravity="center|right"
+                    android:layout_marginTop="@dimen/common_10dp"
+                    android:background="@mipmap/ic_record_selector"
+                    android:text="@string/loan_record"
+                    android:textColor="@color/common_navy_blue"
+                    android:textSize="@dimen/common_14dp"
+                    android:visibility="invisible"
+                    />
+
+
+                <cn.jishiyu11.xjsjd.control.MyTextView
+                    android:id="@+id/record_loan_end"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/common_10dp"
+                    android:text="浏览时间: 2017-08-31"
+                    android:textColor="@color/common_loan_record_text"
+                    android:textSize="@dimen/common_11dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

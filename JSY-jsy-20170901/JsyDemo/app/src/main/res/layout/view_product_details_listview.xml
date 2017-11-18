@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        android:background="@color/white"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/common_8dp"
+                    android:background="@color/common_light_grey"
+                    />
+                <LinearLayout
+                    android:paddingTop="@dimen/common_10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="@dimen/common_14dp"
+                        android:layout_height="@dimen/common_14dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/common_20dp"
+                        android:background="@color/common_details_point" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/common_10dp"
+                        android:text="@string/loan_apply_condition"
+                        android:textSize="@dimen/common_16dp" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/audit_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/common_40dp"
+                    android:layout_marginRight="@dimen/common_40dp"
+                    android:layout_marginTop="@dimen/common_10dp"
+                    android:layout_marginBottom="@dimen/common_10dp"
+                    android:text="1.20-60周岁"
+                    android:textSize="@dimen/common_14dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/common_8dp"
+                    android:background="@color/common_light_grey"
+                    />
+                <LinearLayout
+                    android:layout_marginTop="@dimen/common_10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="@dimen/common_14dp"
+                        android:layout_height="@dimen/common_14dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/common_20dp"
+                        android:background="@color/common_details_point" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/common_10dp"
+                        android:text="@string/loan_detail_info"
+                        android:textSize="@dimen/common_16dp" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/audit_text1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/common_40dp"
+                    android:layout_marginRight="@dimen/common_40dp"
+                    android:layout_marginTop="@dimen/common_10dp"
+                    android:text="1.20-60周岁"
+                    android:textSize="@dimen/common_14dp" />
+
+                <TextView
+                    android:id="@+id/audit_text2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/common_40dp"
+                    android:layout_marginRight="@dimen/common_40dp"
+                    android:layout_marginTop="@dimen/common_10dp"
+                    android:text="1.20-60周岁"
+                    android:textSize="@dimen/common_14dp" />
+
+                <TextView
+                    android:id="@+id/audit_text3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/common_40dp"
+                    android:layout_marginRight="@dimen/common_40dp"
+                    android:layout_marginTop="@dimen/common_10dp"
+                    android:text="1.20-60周岁"
+                    android:textSize="@dimen/common_14dp" />
+
+                <TextView
+                    android:id="@+id/audit_text4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/common_40dp"
+                    android:layout_marginRight="@dimen/common_40dp"
+                    android:layout_marginTop="@dimen/common_10dp"
+                    android:text="1.20-60周岁"
+                    android:textSize="@dimen/common_14dp" />
+
+                <TextView
+                    android:id="@+id/audit_text5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/common_40dp"
+                    android:layout_marginRight="@dimen/common_40dp"
+                    android:layout_marginTop="@dimen/common_10dp"
+                    android:text="1.20-60周岁"
+                    android:textSize="@dimen/common_14dp" />
+
+                <TextView
+                    android:id="@+id/audit_text6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/common_40dp"
+                    android:layout_marginRight="@dimen/common_40dp"
+                    android:layout_marginTop="@dimen/common_10dp"
+                    android:text="1.20-60周岁"
+                    android:textSize="@dimen/common_14dp" />
+
+                <TextView
+                    android:id="@+id/audit_text7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/common_40dp"
+                    android:layout_marginRight="@dimen/common_40dp"
+                    android:layout_marginTop="@dimen/common_10dp"
+                    android:text="1.20-60周岁"
+                    android:textSize="@dimen/common_14dp" />
+
+                <TextView
+                    android:id="@+id/audit_text8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/common_40dp"
+                    android:layout_marginRight="@dimen/common_40dp"
+                    android:layout_marginTop="@dimen/common_10dp"
+                    android:text="1.20-60周岁"
+                    android:textSize="@dimen/common_14dp" />
+
+                <TextView
+                    android:id="@+id/audit_text9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/common_40dp"
+                    android:layout_marginRight="@dimen/common_40dp"
+                    android:layout_marginTop="@dimen/common_10dp"
+                    android:text="1.20-60周岁"
+                    android:textSize="@dimen/common_14dp" />
+  <TextView
+                    android:id="@+id/audit_text10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/common_40dp"
+                    android:layout_marginRight="@dimen/common_40dp"
+                    android:layout_marginTop="@dimen/common_10dp"
+                    android:text="1.20-60周岁"
+                    android:textSize="@dimen/common_14dp" />
+  <TextView
+                    android:id="@+id/audit_text11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/common_40dp"
+                    android:layout_marginRight="@dimen/common_40dp"
+                    android:layout_marginTop="@dimen/common_10dp"
+                    android:text="1.20-60周岁"
+      android:layout_marginBottom="@dimen/common_10dp"
+                    android:textSize="@dimen/common_14dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/common_8dp"
+                        android:background="@color/common_light_grey"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/common_20dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="@dimen/common_14dp"
+                            android:layout_height="@dimen/common_14dp"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="@dimen/common_20dp"
+                            android:background="@color/common_details_point" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="@dimen/common_10dp"
+                            android:text="@string/loan_newpersion_guid"
+                            android:textSize="@dimen/common_16dp" />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_marginBottom="@dimen/common_10dp"
+                        android:id="@+id/guid_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/common_40dp"
+                        android:layout_marginRight="@dimen/common_40dp"
+                        android:layout_marginTop="@dimen/common_10dp"
+                        android:text="1.20-60周岁"
+                        android:textSize="@dimen/common_14dp" />
+                </LinearLayout>
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/common_14dp"
+                android:background="@color/common_light_grey"
+                />
+
+            <TextView
+                android:background="@color/common_light_grey"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/common_50dp"
+                />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_light_grey"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/common_180dp"
+            android:background="@drawable/frist_title"
+            android:orientation="horizontal"
+            />
+
+        <TextView
+            android:id="@+id/title_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:text="@string/name_first_fm"
+            android:textColor="@color/white"
+            android:textSize="@dimen/common_16dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title_layout"
+            android:layout_marginTop="@dimen/common_8dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="26dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="@dimen/common_20dp"
+                    android:layout_height="@dimen/common_20dp"
+                    android:layout_marginLeft="@dimen/common_10dp"
+                    android:background="@drawable/trumpet"
+                    />
+
+                <cn.jishiyu11.xjsjd.view.MarqueeView
+                    android:layout_marginLeft="@dimen/common_4dp"
+                    android:id="@+id/marqueeView"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"></cn.jishiyu11.xjsjd.view.MarqueeView>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_4dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/common_150dp"
+                    android:layout_marginLeft="@dimen/common_8dp"
+                    android:layout_marginRight="@dimen/common_8dp"
+                    android:background="@drawable/corner_view"
+                    android:gravity="right|bottom">
+
+                    <TextView
+                        android:id="@+id/first_success_loan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/common_30dp"
+                        android:text="成功借款 0次"
+                        android:textColor="@color/home_listview_line" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/first_load_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/common_8dp"
+                    android:layout_marginRight="@dimen/common_8dp"
+                    android:background="@drawable/corner_view2"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/first_icon"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_margin="@dimen/common_8dp"
+                            android:src="@mipmap/lightning" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="@dimen/common_8dp"
+                            android:text="@string/name_first_fm_easy"
+                            android:textColor="@color/common_blue_details"
+                            android:textSize="@dimen/common_14dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/name_sky_loan"
+                            android:textColor="@color/common_blue_details"
+                            android:textSize="@dimen/common_14dp" />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/common_2dp"
+                        android:layout_marginLeft="@dimen/common_8dp"
+                        android:layout_marginRight="@dimen/common_8dp"
+                        android:background="@color/common_grey_color" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/common_20dp"
+                        android:layout_marginTop="@dimen/common_8dp"
+                        android:text="@string/name_first_fm_credit_num"
+                        android:textColor="@color/common_blue_details"
+                        android:textSize="@dimen/common_16dp" />
+
+                    <TextView
+                        android:id="@+id/first_ed"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/common_8dp"
+                        android:layout_marginLeft="@dimen/common_20dp"
+                        android:text="1000"
+                        android:textSize="@dimen/common_25dp" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <!--<ScrollView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:scrollbars="none"-->
+        <!--&gt;-->
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_8dp"
+                android:layout_marginBottom="@dimen/common_8dp"
+                android:layout_marginLeft="@dimen/common_20dp"
+                android:layout_marginRight="@dimen/common_20dp"
+                android:background="@drawable/corner_view2"
+                android:orientation="vertical">
+                <!--<TextView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="@dimen/common_2dp"-->
+                <!--android:background="@color/common_transparent"-->
+                <!--/>-->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/common_20dp"
+                    android:layout_marginTop="@dimen/common_6dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="@dimen/common_20dp"
+                        android:layout_height="@dimen/common_20dp"
+                        android:src="@mipmap/money" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="我要借（元）" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/first_ed_chosed"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:inputType="number"
+                            android:text="2000"
+                            android:textSize="@dimen/common_16dp" />
+
+                        <TextView
+                            android:layout_width="@dimen/common_80dp"
+                            android:layout_height="@dimen/common_2dp"
+                            android:background="@color/common_grey_disabled" />
+
+                        <TextView
+                            android:id="@+id/first_ed_fw"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/common_2dp"
+                            android:text="1000-2000元"
+                            android:textSize="@dimen/common_8dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/common_8dp"
+                        android:background="@mipmap/seekbar_back"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <SeekBar
+                            android:id="@+id/seekbar_ed_bar"
+                            android:layout_width="@dimen/common_300dp"
+                            android:layout_height="wrap_content"
+                            android:maxHeight="@dimen/common_6dp"
+                            android:paddingLeft="0dp"
+                            android:paddingRight="0dp"
+                            android:paddingTop="@dimen/common_6dp"
+                            android:progressDrawable="@drawable/seekbar_style"
+                            android:thumb="@drawable/seekbar_thumb" />
+
+                        <LinearLayout
+                            android:layout_width="@dimen/common_300dp"
+                            android:layout_height="wrap_content">
+
+
+                            <LinearLayout
+                                android:id="@+id/ed_layout"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/seekbar_ed"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:maxLines="1"
+                                    android:text="500元"
+                                    android:textColor="@color/common_pop_blue"
+                                    android:textSize="@dimen/common_12dp" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/common_20dp"
+                android:layout_marginRight="@dimen/common_20dp"
+                android:background="@drawable/corner_view2"
+                android:orientation="vertical">
+                <!--<TextView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="@dimen/common_2dp"-->
+                <!--android:background="@color/common_transparent"-->
+                <!--/>-->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/common_20dp"
+                    android:layout_marginTop="@dimen/common_6dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="@dimen/common_20dp"
+                        android:layout_height="@dimen/common_20dp"
+                        android:src="@mipmap/date_money" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="借款期限" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/first_date_chosed"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:inputType="number"
+                            android:text="12"
+                            android:textSize="@dimen/common_16dp" />
+
+                        <TextView
+                            android:layout_width="@dimen/common_80dp"
+                            android:layout_height="@dimen/common_2dp"
+                            android:background="@color/common_grey_disabled" />
+
+                        <TextView
+                            android:id="@+id/first_date_fw"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/common_2dp"
+                            android:text="1-12个月"
+                            android:textSize="@dimen/common_8dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/common_8dp"
+                        android:background="@mipmap/seekbar_back"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <SeekBar
+                            android:id="@+id/seekbar_date_bar"
+                            android:layout_width="@dimen/common_300dp"
+                            android:layout_height="wrap_content"
+                            android:max="10"
+                            android:maxHeight="@dimen/common_6dp"
+                            android:paddingLeft="0dp"
+                            android:paddingRight="0dp"
+                            android:paddingTop="@dimen/common_6dp"
+                            android:progressDrawable="@drawable/seekbar_style"
+                            android:thumb="@drawable/seekbar_thumb" />
+
+
+                            <LinearLayout
+                                android:id="@+id/data_layout"
+                                android:layout_width="@dimen/common_300dp"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/seekbar_date"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="1个月"
+                                    android:gravity="center"
+                                    android:maxLines="1"
+                                    android:textColor="@color/common_pop_blue"
+                                    android:textSize="@dimen/common_12dp" />
+
+                            </LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/first_now_apply"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/common_60dp"
+                    android:layout_marginRight="@dimen/common_60dp"
+                    android:background="@drawable/corner_view"
+                    android:text="立即申请借款"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+        </LinearLayout>
+    <!--</ScrollView>-->
+</LinearLayout>

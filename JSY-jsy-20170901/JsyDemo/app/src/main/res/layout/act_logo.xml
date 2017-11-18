@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessParent">
+
+        <ImageView
+            android:id="@+id/loan_logo_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:scaleType="fitXY"
+            android:src="@mipmap/ic_act_login_header" />
+
+        <include
+            layout="@layout/tab_activity_fra"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/loan_logo_image"
+            android:layout_marginLeft="@dimen/common_60dp"
+            android:layout_marginRight="@dimen/common_50dp"
+            android:layout_marginTop="@dimen/common_20dp"
+            android:orientation="vertical"
+            tools:ignore="RtlHardcoded">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <cn.jishiyu11.xjsjd.control.MyEdittextView
+                    android:id="@+id/loan_logo_edittext_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/ic_loan_logo_phone_logo"
+                    android:digits="1234567890"
+                    android:hint="@string/name_loan_logo_phone"
+                    android:inputType="phone|number"
+                    android:maxLength="12"
+                    android:paddingLeft="@dimen/common_50dp"
+                    android:textColor="@color/common_brown_text"
+                    android:textColorHint="@color/common_gray"
+                    android:textSize="@dimen/common_14dp"
+                    tools:ignore="RtlSymmetry" />
+
+                <ImageView
+                    android:id="@+id/image_my_phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="@dimen/common_20dp"
+                    android:src="@mipmap/ic_loan_logo_my_phone" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/loan_logo_Re_code"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_5dp"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2">
+
+                    <cn.jishiyu11.xjsjd.control.MyEdittextView
+                        android:id="@+id/loan_logo_edittext_code"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerInParent="true"
+                        android:background="@mipmap/ic_loan_logo_phone_logo"
+                        android:digits="1234567890"
+                        android:hint="@string/name_loan_logo_code"
+                        android:inputType="phone|number"
+                        android:maxLength="6"
+                        android:paddingLeft="@dimen/common_50dp"
+                        android:textColor="@color/common_brown_text"
+                        android:textColorHint="@color/common_gray"
+                        android:textSize="@dimen/common_14dp" />
+
+                    <ImageView
+                        android:id="@+id/image_my_code"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerInParent="true"
+                        android:layout_marginLeft="@dimen/common_25dp"
+                        android:src="@mipmap/ic_loan_logo_code" />
+
+                </RelativeLayout>
+
+                <cn.jishiyu11.xjsjd.control.MyButton
+                    android:id="@+id/loan_logo_button_code"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/corner_view3_logback"
+                    android:padding="@dimen/common_15dp"
+                    android:text="@string/name_loan_set_up_password_obtain_code"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/common_14dp" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/loan_logo_Re_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_5dp"
+                android:visibility="gone">
+
+                <cn.jishiyu11.xjsjd.control.MyEdittextView
+                    android:id="@+id/loan_logo_edittext_password_code"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/ic_loan_logo_phone_logo"
+                    android:hint="@string/name_loan_logo_password"
+                    android:inputType="textPassword"
+                    android:paddingLeft="@dimen/common_50dp"
+                    android:textColor="@color/common_brown_text"
+                    android:textColorHint="@color/common_gray"
+                    android:textSize="@dimen/common_14dp" />
+
+                <ImageView
+                    android:id="@+id/image_my_password_code"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="@dimen/common_20dp"
+                    android:src="@mipmap/ic_loan_logo_code" />
+
+            </RelativeLayout>
+
+            <cn.jishiyu11.xjsjd.control.MyButton
+                android:id="@+id/loan_logo_button_logo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_5dp"
+                android:background="@drawable/corner_view3_logback"
+                android:padding="@dimen/common_10dp"
+                android:text="@string/name_loan_logo_logo"
+                android:textColor="@color/white"
+                android:textSize="@dimen/common_14dp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/common_10dp"
+                android:layout_marginRight="@dimen/common_10dp"
+                android:layout_marginTop="@dimen/common_5dp">
+
+                <cn.jishiyu11.xjsjd.control.MyTextView
+                    android:id="@+id/loan_logo_account_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerInParent="true"
+                    android:text="@string/name_loan_logo_account_number"
+                    android:textColor="@color/common_brown_text"
+                    android:textSize="@dimen/common_14dp"
+                    tools:ignore="RtlHardcoded" />
+
+                <cn.jishiyu11.xjsjd.control.MyTextView
+                    android:id="@+id/loan_logo_no_password"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:text="@string/name_loan_logo_no_password"
+                    android:textColor="@color/common_brown_text"
+                    android:textSize="@dimen/common_14dp"
+                    android:visibility="gone"
+                    tools:ignore="RelativeOverlap,RtlHardcoded" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

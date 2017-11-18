@@ -1,0 +1,334 @@
+<resources>
+    <string name="app_name">小额钱包</string>
+    <string name="app_name_DQ">小额钱包</string>
+    <string name="network_timed">网络连接超时，请重试</string>
+    <string name="no_network_timed">暂无网络,请稍后再试</string>
+    <string name="name_loan">我的借款</string>
+    <string name="name_first_fm">首页</string>
+    <string name="name_two_fm">我的借款</string>
+    <string name="name_first_fm_credit_num">信用额度（元）</string>
+
+    <string name="name_first_fm_easy">流程简单</string>
+    <string name="name_sky_loan">急速放款</string>
+    <string name="name_personal_center">个人中心</string>
+    <string name="name_loan_credit_card">信用卡贷</string>
+    <string name="name_loan_credit_payroll">工薪贷</string>
+    <string name="name_loan_credit_taobao">淘宝贷</string>
+    <string name="name_loan_credit_Business_owners">企业主贷</string>
+    <string name="name_loan_credit_students">学生贷</string>
+    <string name="name_Loan_classification">贷款分类引导</string>
+    <string name="name_Loan_recommend">贷款推荐</string>
+    <string name="name_Loan_recommend_accurately">精确推荐贷款</string>
+    <string name="name_loan_credit_report">征信报告</string>
+    <string name="name_loan_personal_credit">个人信用查询</string>
+    <string name="name_loan_batch">换一批</string>
+    <string name="name_loan_hot_sky_loan">热门极速贷款</string>
+    <string name="name_loan_praise_recommend">好评推荐</string>
+    <string name="name_loan_personal_logn">点击登录</string>
+    <string name="name_loan_my">我的借款</string>
+    <string name="name_loan_my_details">查看借款详情</string>
+    <string name="name_loan_my_ic_my_package">我的卡包</string>
+    <string name="name_loan_my_ic_my_package_use">一张卡可用</string>
+    <string name="name_loan_personal_data">个人资料</string>
+    <string name="name_loan_personal_inviting_friends">邀请好友</string>
+    <string name="name_loan_personal_help_center">帮助中心</string>
+    <string name="name_loan_personal_feedback">意见反馈</string>
+    <string name="integral_shop_title_name">个人中心</string>
+    <string name="name_loan_personal_setup">设置</string>
+    <string name="name_loan_personal_data_phone">手机号码</string>
+    <string name="name_loan_personal_data_name">姓名</string>
+    <string name="name_loan_personal_data_id">身份证号码</string>
+    <string name="name_loan_personal_data_credit">个人资信</string>
+    <string name="name_loan_personal_data_enterprise">企业经营情况</string>
+    <string name="name_loan_personal_data_family">家庭及居住情况</string>
+    <string name="name_loan_personal_data_other">其他联系人</string>
+    <string name="name_loan_personal_data_house_property">房产</string>
+    <string name="name_loan_personal_data_car_production">车产</string>
+    <string name="name_loan_personal_data_operator">授权</string>
+    <string name="name_loan_personal_data_online_shopping">网购信用</string>
+    <string name="name_loan_personal_data_certificates">证件上传</string>
+    <string name="name_loan_personal_data_bank_card">绑定银行卡</string>
+    <string name="name_loan_personal_data_no_complete">未完成</string>
+    <string name="name_loan_personal_data_complete">完成</string>
+    <string name="name_loan_credit_degree_education">文化程度</string>
+    <string name="name_loan_credit_please_select">请选择</string>
+    <string name="name_loan_credit_no_cards">有无信用卡</string>
+    <string name="name_loan_credit_no_cards_record">两年内信用记录</string>
+    <string name="name_loan_credit_liabilities">负债情况</string>
+    <string name="name_loan_credit_no_loan">有无成功贷款记录</string>
+    <string name="name_loan_credit_no_taobao">是否有实名淘宝账号</string>
+    <string name="name_loan_credit_purpose">贷款用途</string>
+    <string name="name_loan_enterprise_identity">您在企业的身份</string>
+    <string name="name_loan_enterprise_shares">您在企业的股份</string>
+    <string name="name_loan_enterprise_location">企业世纪经营所在地</string>
+    <string name="name_loan_enterprise_type">经营企业类型</string>
+    <string name="name_loan_enterprise_industry">经营公司所属行业</string>
+    <string name="name_loan_enterprise_time">营业执照时间</string>
+    <string name="name_loan_enterprise_life">企业经营年限</string>
+    <string name="name_loan_enterprise_private_water">每月对私流水(万元)</string>
+    <string name="name_loan_enterprise_public_water">每月对公流水(万元)</string>
+    <string name="name_loan_family_marriage">婚姻状况</string>
+    <string name="name_loan_family_city">所在城市</string>
+    <string name="name_loan_family_address">居住详情地址</string>
+    <string name="name_loan_family_household_register">户籍所在地</string>
+    <string name="name_loan_bank_savings_card">储蓄卡</string>
+    <string name="name_loan_bank_no_verification">未验证</string>
+    <string name="name_loan_other_import">快捷导入</string>
+    <string name="name_loan_other_relatives">亲属/配偶姓名</string>
+    <string name="name_loan_other_contacts">紧急联系人</string>
+    <string name="name_loan_house_estate">名下房产</string>
+    <string name="name_loan_house_location">房产所在地</string>
+    <string name="name_loan_house_type">房产类型</string>
+    <string name="name_loan_house_market_price">房产当前市价(万元)</string>
+    <string name="name_loan_house_mortgage">目前该放是否存在按揭</string>
+    <string name="name_loan_house_no_mortgage">目前该放是否抵押</string>
+    <string name="name_loan_car_estate">名下车产</string>
+    <string name="name_loan_car_new_car">新车市价(万元)</string>
+    <string name="name_loan_car_life">使用年限</string>
+    <string name="name_loan_car_mortgage">目前该车是否存在按揭</string>
+    <string name="name_loan_car_no_mortgage">目前该车是否存抵押</string>
+    <string name="name_loan_operator_no_authorization">待认证</string>
+    <string name="name_loan_operator_authorization">已认证</string>
+    <string name="name_loan_set_up_about">关于我们</string>
+    <string name="name_loan_set_up_password">修改密码</string>
+    <string name="name_loan_set_up_sign_upde">检测版本</string>
+    <string name="name_loan_set_up_sign_out">安全退出</string>
+    <string name="name_loan_set_up_about_text">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;小额钱包成立于2016年7月,公司位于北京.小额钱包通过移动互联网和大数据应用技术,为用户提供线上纯信用贷款服务的平台.小额钱包全程线上操作、申请、审批,手续渐变快捷,用户应急周转和线上消费的备用钱包.截止目前,小额钱包APP累计注册用户百万人,入驻多家主流正规贷款机构,包括消费金融公司、小贷公司、汽车金融公司、互联网金融公司等.</string>
+
+    <string name="name_loan_set_up_password_phone">输入手机号</string>
+    <string name="name_loan_set_up_password_phone11">请输入11位手机号码</string>
+    <string name="name_loan_set_up_password_code">验证码</string>
+    <string name="name_loan_set_up_password_code11">请输入验证码</string>
+    <string name="name_loan_set_up_password_obtain_code">获取验证码</string>
+    <string name="name_loan_set_up_password_password">密码</string>
+    <string name="name_loan_set_up_password_password11">请输入6位以上新密码</string>
+    <string name="name_loan_set_up_password_confirm">确认密码</string>
+    <string name="name_loan_set_up_password_confirm11">请再次输入密码</string>
+    <string name="name_loan_you">有</string>
+    <string name="name_loan_wu">无</string>
+    <string name="name_loan_cancel">取消</string>
+    <string name="name_loan_personal_data_certifcates_reminder">* 温馨提示：请填写真实有效信息以便通过认证</string>
+    <string name="name_loan_personal_data_certifcates_positive">第一步：请拍摄身份证正面照</string>
+    <string name="name_loan_personal_data_certifcates_camera_text">身份证完整,身份证号清晰</string>
+    <string name="name_loan_personal_data_certifcates_other_side">第二步：请拍摄身份证反面照</string>
+    <string name="name_loan_personal_data_certifcates_face_verification">点击开始验证</string>
+    <string name="name_loan_personal_data_certifcates_face_v_success">验证成功</string>
+    <string name="name_loan_personal_data_preservation">保存</string>
+    <string name="name_loan_personal_data_upload_front_id">身份证正面照</string>
+    <string name="name_loan_personal_data_upload_front_hold_id">手持身份证照片</string>
+    <string name="name_loan_personal_data_upload_house">房产证</string>
+    <string name="name_loan_personal_data_upload_vehicle">机动车驾驶证</string>
+    <string name="name_loan_personal_camera">拍照</string>
+    <string name="name_loan_personal_album">相册中选择</string>
+    <string name="read_photo_error">获取图片失败</string>
+    <string name="parse_photo_error">解析图片失败</string>
+    <string name="name_loan_logo_register">注册</string>
+    <string name="name_loan_logo_phone">输入手机号</string>
+    <string name="name_loan_logo_code">输入验证码</string>
+    <string name="name_loan_logo_logo">立即登录</string>
+    <string name="name_loan_logo_account_number">账号密码登录</string>
+    <string name="name_loan_logo_password">请输入密码</string>
+    <string name="name_loan_logo_code_logo">验证码快捷登录</string>
+    <string name="name_loan_logo_no_password">忘记密码</string>
+    <string name="name_loan_logo_agreement">注册即表示同意《小额钱包注册协议》</string>
+
+    <string name="name_loan_product_interest_rat">日利率</string>
+    <string name="name_loan_details_yuan">元</string>
+    <string name="name_loan_details_month">月</string>
+    <string name="name_loan_details_day">天</string>
+    <string name="name_loan_details_resources_rat">参考日利率</string>
+    <string name="name_loan_details_repayment">每日还款(元)</string>
+    <string name="name_loan_details_repayment_yue">每月还款(元)</string>
+    <string name="name_loan_details_loan_time">放款最快时间</string>
+    <string name="name_loan_details_borrow_possible">按日计息,随借随还</string>
+    <string name="name_loan_details_basic_information">基础信息认证</string>
+    <string name="name_loan_details_information">认证材料</string>
+    <string name="name_loan_details_product_details">产品详情</string>
+    <string name="name_loan_details_evaluate">用户评价</string>
+    <string name="name_loan_details_state">用户状态</string>
+
+    <string name="name_loan_details_phone_operator">手机运营商</string>
+    <string name="name_loan_details_esame_credit">芝麻信用</string>
+    <string name="name_loan_details_id">身份证</string>
+    <string name="name_loan_details_other">其他认证信息</string>
+    <string name="name_loan_details">贷款详情</string>
+    <string name="name_loan_details_supplement">补充资料</string>
+    <string name="name_loan_details_basic_txt">该信息将作为您的真实凭证,请确保真实</string>
+    <string name="name_loan_details_basic_my_name">本人姓名</string>
+    <string name="name_loan_details_basic_please_in">请填写姓名</string>
+    <string name="name_loan_details_basic_id">本人身份证号</string>
+    <string name="name_loan_details_basic_number">请输入身份证号码</string>
+    <string name="name_loan_details_basic_application">申请金额</string>
+    <string name="name_loan_details_basic_loan_application">贷款申请期限</string>
+    <string name="name_loan_details_basic_loan_highest">可接受最高月还款额度(元)</string>
+    <string name="name_loan_details_basic_content">请输入内容</string>
+    <string name="name_loan_details_basic_education_level">教育程度</string>
+    <string name="name_loan_details_basic_security">现单位是否缴纳社保</string>
+    <string name="name_loan_details_basic_cat">车辆情况</string>
+    <string name="name_loan_details_basic_typ">职业类型</string>
+    <string name="name_loan_details_basic_income">月工资收入(元)</string>
+    <string name="name_loan_details_basic_agree">我已阅读并同意</string>
+    <string name="name_loan_details_basic_loan">贷款知情书</string>
+    <string name="name_loan_details_basic_life">现单位工作年限</string>
+    <string name="name_loan_basic_information">基本信息认证</string>
+    <string name="name_loan_basic_identity">身份认证</string>
+    <string name="name_loan_basic_submit">提交</string>
+    <string name="channel_name">10000</string>
+    <string name="name_other_information_text">恭喜,您已经满足贷款需求.您必须完成补充信息,才能最终放款</string>
+    <string name="name_other_information_personal_mailbox">个人邮箱</string>
+    <string name="name_other_information_mailbox">请填写邮箱</string>
+    <string name="name_other_information_spouse">配偶</string>
+    <string name="name_other_information_live">居住地址</string>
+    <string name="name_other_information_detailed_address">请填写详情地址</string>
+    <string name="name_other_information_mode">居住方式</string>
+    <string name="name_other_information_corporate">公司名称</string>
+    <string name="name_other_information_please_corporate">请输入公司名称</string>
+    <string name="name_other_information_corporate_address">公司地址</string>
+    <string name="name_other_information_corporate_phone">公司电话</string>
+    <string name="name_other_information_please_corporate_phone">请输入公司电话</string>
+    <string name="name_other_information_please_button">完成申请</string>
+    <string name="name_loan_feedback_path">上传图片</string>
+    <string name="name_loan_feedback_editText">&#160;&#160;&#160;&#160;请详细描述您的问题或者建议,我们将即时跟进解决,(可以添加相关问题的截图)</string>
+    <string name="name_loan_feedback_edit">请填写手机号/邮箱(选项,方便我们联系)</string>
+    <string name="name_loan_speed_loan">申请贷款</string>
+    <string name="name_loan_speed_loan_x">极速微额贷款</string>
+    <string name="name_loan_personal_loan_name">请输入姓名</string>
+    <string name="name_loan_personal_loan_id">请输入身份证号码</string>
+    <string name="name_loan_help_problem">猜你想问</string>
+    <string name="name_loan_help_application">从申请、审核到最终放款,大约需要一个月时间.</string>
+    <string name="name_loan_help_application_txt">申请一笔贷款需要多少时间?</string>
+    <string name="name_loan_help_application_loan">如何申请贷款?</string>
+    <string name="name_loan_help_application_loan_success">如何提高贷款成功率?</string>
+    <string name="name_loan_help_application_loan_repayment">贷款后如何还款?</string>
+    <string name="name_loan_help_application_loan_order">订单提提交后可以修改吗?怎么取消订单?</string>
+    <string name="name_loan_help_application_loan_order_text">申请金额、分期期数等订单信息一经提交无法修改,请您确认订单并核实无误后进行下单.
+</string>
+    <string name="name_loan_help_application_loan_fail">为什么审核失败?</string>
+    <string name="name_loan_help_application_loan_fail_text">若您填写的个人资料不完整不真实、上传的照片模糊、有遮挡物等均会导致审核失败.
+</string>
+    <string name="name_loan_help_application_loan_repayment_text">根据贷款产品所属机构不同,还款方式也可能不同。有些机构会从您申请放款银行卡中按期扣收 ,有些机构会要求您在该机构的注册账号中按期储值进行还款.机构放款前会与您确认,请关注确认信息</string>
+    <string name="name_loan_help_application_loan_success_text">(1) 您可以选择为您推介的产品,然后申请可有效提高成功率.(2) 数据表明:申请多个产品,可大幅提高贷款成功率.</string>
+    <string name="name_loan_help_application_loan_text">您可以通过搜索贷款产品,我们建议您先完善个人信息,完善个人信息有利于我们精准推荐贷款产品,您可以按需选择,并根据此贷款产品的需求填完资料并提交申请</string>
+
+
+    <string name="share_weichat">微信</string>
+    <string name="share_weichatfriend">朋友圈</string>
+    <string name="share_qqroom">QQ空间</string>
+    <string name="share_qq">QQ</string>
+
+    <string name="dialog_bottom_urban_area">请选择省市区</string>
+    <string name="dialog_bottom_determine">确定</string>
+
+    <string name="operator_text_phone">仅支持本人实名认证的手机号</string>
+    <string name="operator_service_password">服务密码</string>
+    <string name="operator_phone_service_password">请输入电话服务密码</string>
+    <string name="operator_password_locking">请谨慎输入,多次输入错误会导致账号锁定</string>
+    <string name="operator_no_password">忘记密码?</string>
+    <string name="operator_clause">《授权服务条款》</string>
+    <string name="operator_agree">同意</string>
+    <string name="operator_grant">运营商授权</string>
+    <string name="operator_text">正在登入....\n完成登入过程大约需要 30s\n登入过程中需要输入短信验证码,请勿关闭页面</string>
+    <string name="operator_text_result">登入完成,正在同步…\n离开页面不会影响授权结果</string>
+    <string name="loan_fragment_applicants">申请人数</string>
+    <string name="loan_fragment_rate">费率</string>
+    <string name="loan_commossooning">立即体验</string>
+    <string name="loan_evaluate_my">我要评价</string>
+    <string name="loan_record">立即还款</string>
+
+    <string name="permission_camera">摄像头</string>
+    <string name="permission_storage">文件</string>
+    <string name="permission_accounts">信息</string>
+    <string name="permission_phone">状态</string>
+    <string name="permission_location">定位</string>
+    <string name="permission_audio">录音</string>
+
+    <string name="already_loan">已放款</string>
+    <string name="noalready_loan">未放款</string>
+    <string name="commen_evaluate">发表评价</string>
+    <string name="valuate_hint">请详细描述您的问题或建议，我们将及时跟进解决。</string>
+    <string name="loan_detail_info">借款审核细节</string>
+    <string name="loan_apply_condition">申请条件</string>
+    <string name="loan_newpersion_guid">新手指导</string>
+    <string name="loan_apply_now">立即申请</string>
+    <string name="loan_service">客 服</string>
+    <string name="loan_min">500</string>
+
+    <string name="plase_input_smscode">请输入短信验证码</string>
+    <string name="plase_input_imgcode">请输入图片验证码</string>
+
+    <!--活体检测-->
+    <string name="meglive_title">人脸活体检测Demo</string>
+    <string name="meglive_version">版本号：</string>
+    <string name="meglive_livenessBtn">活体检测</string>
+    <string name="meglive_auth_progress">正在联网授权中...</string>
+    <string name="meglive_auth_again">重新联网授权</string>
+    <string name="meglive_auth_failed">联网授权失败！请检查网络或找服务商</string>
+    <string name="meglive_returnbtn">重新验证</string>
+    <string name="meglive_sure">确定</string>
+    <string name="meglive_liveness_again">重新验证活体</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="get_100w_trip">申请免费领取最高100万</string>
+    <string name="get_100w_trip2">出行意外险</string>
+
+    <string name="integral_shop_text">sorry!暂时没有相关内容</string>
+    <string name="integral_shop_text2">敬请期待...</string>
+
+    <string-array name="tips">
+        <item>赵</item>
+        <item>钱</item>
+        <item>孙</item>
+        <item>李</item>
+        <item>周</item>
+        <item>吴</item>
+        <item>郑</item>
+        <item>王</item>
+        <item>冯</item>
+        <item>陈</item>
+        <item>褚</item>
+        <item>卫</item>
+        <item>蒋</item>
+        <item>沈</item>
+        <item>韩</item>
+        <item>杨</item>
+        <item>秦</item>
+        <item>许</item>
+        <item>何</item>
+        <item>魏</item>
+        <item>金</item>
+        <item>窦</item>
+        <item>昌</item>
+    </string-array>
+
+    <string-array name="phonestarnum">
+        <item>139</item>
+        <item>138</item>
+        <item>137</item>
+        <item>136</item>
+        <item>135</item>
+        <item>134</item>
+        <item>188</item>
+        <item>187</item>
+        <item>186</item>
+        <item>185</item>
+        <item>176</item>
+        <item>145</item>
+        <item>156</item>
+        <item>155</item>
+        <item>132</item>
+        <item>131</item>
+        <item>130</item>
+        <item>175</item>
+        <item>189</item>
+        <item>153</item>
+        <item>133</item>
+        <item>151</item>
+        <item>152</item>
+        <item>157</item>
+
+
+    </string-array>
+
+
+
+</resources>

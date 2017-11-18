@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_light_grey"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/tab_activity_fra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/operator_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/common_30dp"
+        android:src="@mipmap/ic_operator_logo" />
+
+    <LinearLayout
+        android:id="@+id/operator_linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/common_25dp"
+        android:orientation="vertical"
+        android:visibility="gone"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:padding="@dimen/common_10dp">
+
+            <cn.jishiyu11.xjsjd.control.MyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/common_5dp"
+                android:text="@string/name_loan_personal_data_phone"
+                android:textColor="@color/common_operator_color"
+                android:textSize="@dimen/common_14dp" />
+
+            <cn.jishiyu11.xjsjd.control.MyEdittextView
+                android:id="@+id/operator_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/transparent"
+                android:digits="1234567890"
+                android:hint="@string/name_loan_logo_phone"
+                android:inputType="phone|number"
+                android:maxLength="12"
+                android:padding="@dimen/common_5dp"
+                android:textColor="@color/common_brown_text"
+                android:textColorHint="@color/common_gray"
+                android:textSize="@dimen/common_14dp"
+                />
+
+        </LinearLayout>
+
+        <cn.jishiyu11.xjsjd.control.MyTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/common_10dp"
+            android:padding="@dimen/common_10dp"
+            android:text="@string/operator_text_phone"
+            android:textColor="@color/common_operator_text_color"
+            android:textSize="@dimen/common_14dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:padding="@dimen/common_10dp">
+
+            <cn.jishiyu11.xjsjd.control.MyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/common_5dp"
+                android:text="@string/operator_service_password"
+                android:textColor="@color/common_operator_color"
+                android:textSize="@dimen/common_14dp" />
+
+            <cn.jishiyu11.xjsjd.control.MyEdittextView
+                android:id="@+id/operator_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/transparent"
+                android:hint="@string/operator_phone_service_password"
+                android:padding="@dimen/common_5dp"
+                android:textColor="@color/common_brown_text"
+                android:textColorHint="@color/common_gray"
+                android:textSize="@dimen/common_14dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <cn.jishiyu11.xjsjd.control.MyTextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/common_10dp"
+                android:layout_weight="1"
+                android:padding="@dimen/common_5dp"
+                android:text="@string/operator_password_locking"
+                android:textColor="@color/common_operator_text_color"
+                android:textSize="@dimen/common_14dp" />
+
+            <cn.jishiyu11.xjsjd.control.MyTextView
+                android:id="@+id/operator_no_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/common_10dp"
+                android:background="@color/transparent"
+                android:padding="@dimen/common_5dp"
+                android:text="@string/operator_no_password"
+                android:textColor="@color/common_operator_clause_color"
+                android:textSize="@dimen/common_14dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/common_10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/operator_checkbox"
+                style="@style/MyCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:paddingLeft="@dimen/common_10dp"
+                android:text="@string/operator_agree"
+                android:textColor="@color/common_operator_text_color"
+                android:textSize="@dimen/common_14dp" />
+
+            <cn.jishiyu11.xjsjd.control.MyTextView
+                android:id="@+id/operator_clausr_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/transparent"
+                android:padding="@dimen/common_10dp"
+                android:text="@string/operator_clause"
+                android:textColor="@color/common_operator_clause_color"
+                android:textSize="@dimen/common_14dp" />
+        </LinearLayout>
+
+
+        <cn.jishiyu11.xjsjd.control.MyButton
+            android:id="@+id/operator_submit_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/common_20dp"
+            android:layout_marginRight="@dimen/common_20dp"
+            android:layout_marginTop="@dimen/common_20dp"
+            android:background="@mipmap/ic_set_up_confirm_button"
+            android:text="@string/name_loan_basic_submit"
+            android:textColor="@color/white"
+            android:textSize="@dimen/common_14dp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/operator_linear1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/common_40dp"
+        android:orientation="vertical"
+        android:visibility="gone"
+        >
+
+        <cn.jishiyu11.xjsjd.control.MyTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/operator_text"
+            android:textColor="@color/common_operator_text_color"
+            android:textSize="@dimen/common_14dp" />
+
+        <Button
+            android:visibility="gone"
+            android:id="@+id/check_again"
+            android:layout_marginTop="@dimen/common_20dp"
+            android:layout_width="match_parent"
+            android:layout_marginRight="@dimen/common_40dp"
+            android:layout_marginLeft="@dimen/common_40dp"
+            android:background="@drawable/corner_view"
+            android:layout_height="wrap_content"
+            android:text="重新验证"
+            android:textSize="@dimen/common_16dp"
+            android:textColor="@color/white"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/operator_linear2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_marginTop="@dimen/common_40dp"
+        android:orientation="vertical">
+
+        <cn.jishiyu11.xjsjd.control.MyTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/operator_text_result"
+            android:textColor="@color/common_operator_text_color"
+            android:textSize="@dimen/common_14dp" />
+
+        <cn.jishiyu11.xjsjd.control.MyButton
+            android:id="@+id/operator_complete_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/common_20dp"
+            android:layout_marginRight="@dimen/common_20dp"
+            android:layout_marginTop="@dimen/common_20dp"
+            android:background="@mipmap/ic_set_up_confirm_button"
+            android:text="@string/name_loan_personal_data_complete"
+            android:textColor="@color/white"
+            android:textSize="@dimen/common_14dp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

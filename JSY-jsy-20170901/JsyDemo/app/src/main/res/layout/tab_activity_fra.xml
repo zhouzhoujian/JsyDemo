@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/tab_activity_lin"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_40dp"
+        android:background="@mipmap/personal_center_title_back"
+        android:orientation="horizontal"
+        tools:ignore="UselessParent">
+        <!--android:background="@color/common_navy_blue"-->
+        <ImageView
+            android:id="@+id/title_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/common_10dp"
+            android:padding="@dimen/common_10dp"
+            android:src="@mipmap/ic_personal_left"
+            android:visibility="invisible" />
+
+        <cn.jishiyu11.xjsjd.control.MyTextView
+            android:id="@+id/title_view"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:ellipsize="marquee"
+            android:singleLine="true"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/common_16dp" />
+
+        <cn.jishiyu11.xjsjd.control.MyTextView
+            android:id="@+id/title_complete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/common_10dp"
+            android:padding="@dimen/common_10dp"
+            android:text="@string/name_loan_personal_data_complete"
+            android:textColor="@color/white"
+            android:textSize="@dimen/common_14dp"
+            android:visibility="invisible" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
